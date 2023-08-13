@@ -1,0 +1,12 @@
+{
+  "name": "tipscalculator-3.0",
+  "version": "1.0.0",
+  "description": "Calculadora das gorjetas do staff do restaurante em que eu trabalho",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

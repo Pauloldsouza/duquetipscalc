@@ -1,0 +1,186 @@
+/* Estilizando o scrollbar */
+::-webkit-scrollbar {
+  background-color: rgb(165, 91, 42);
+  border: 2px solid black;
+
+  width: 1rem;
+}
+
+/* Estilizando o thumb (botão de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(90, 42, 13);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* Estilizando o thumb hover (botão de rolagem quando o mouse está sobre ele) */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(90, 42, 13);
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 2rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(165, 91, 42);
+  border: 3px solid black;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 3pt 3pt 3pt;
+  width: 95%;
+  height: auto;
+  padding: 1.1rem;
+}
+
+button {
+  background-color: rgba(255, 217, 0, 0.032);
+  border-radius: 8px;
+  border: 2px solid black;
+  color: rgb(255, 229, 196);
+  font-size: 1.5rem;
+  height: 2rem;
+  transition: 0.4s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0.3rem auto;
+}
+
+button:hover {
+  background-color: rgba(255, 217, 0, 0.447);
+  font-size: 1.6rem;
+  width: auto;
+}
+
+#container {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(165, 91, 42);
+  border: 3px solid black;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 3pt 3pt 3pt;
+  width: 80%;
+  font-weight: 600;
+}
+
+input[type="number"] {
+  border: solid 2px black;
+  border-radius: 8px;
+  height: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: burlywood;
+  width: 10rem;
+}
+
+#excluding,
+main {
+  padding: 1.3rem;
+}
+
+select {
+  border: solid 2px black;
+  border-radius: 8px;
+  height: 1.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: burlywood;
+  width: 10rem;
+}
+
+footer {
+  font-size: 1.5rem;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(165, 91, 42);
+  border: 3px solid black;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 3pt 3pt 3pt;
+  width: 95%;
+}
+
+ol {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  flex-wrap: nowrap;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+li {
+  border: 1.5px solid rgb(101, 78, 16);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+}
+
+.pxName {
+  grid-column: 2/5;
+  text-align: start;
+}
+.pxValue {
+  grid-column: 5/8;
+  text-align: end;
+}
+.pxCheckbox {
+  grid-column: 1/2;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+}
+
+.questionRow {
+  border: 2px double rgb(101, 78, 16);
+}
+
+.underDiv {
+  display: flex;
+}
+
+.underDiv button {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(141, 103, 53);
+}
+
+.displayAbsences {
+  display: flex;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
